@@ -1,0 +1,52 @@
+.quiz-container {
+    background: #340873;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    max-width: 700px;
+    max-height: 800px;
+    margin: auto;
+    height: 550px;
+  }
+  
+  .question-box {
+    background-color: #5D3FD3;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(229, 208, 49);
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif; /* Assuming you've included Google Fonts in your HTML */
+  }
+  
+  .options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .option {
+    background-color: white;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 2px solid rgb(229, 208, 49);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .option.correct {
+    background-color: green;
+  }
+  
+  .option:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  
